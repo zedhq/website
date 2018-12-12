@@ -1699,7 +1699,7 @@ Planes
 Base
 */
 .button-atom {
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Fira Mono', monospace;
   line-height: 1.75;
   font-weight: 400;
   margin: 0;
@@ -1991,7 +1991,7 @@ Planes
 }
 .input-molecule__label {
   display: block;
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Fira Mono', monospace;
   font-size: 14px;
   line-height: 1.75;
   font-weight: 600;
@@ -2001,7 +2001,7 @@ Planes
   -webkit-appearance: none;
   margin-top: 10px;
   border: 2px solid #222222;
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Fira Mono', monospace;
   font-size: 14px;
   line-height: 1.75;
   font-weight: 400;
@@ -2036,7 +2036,7 @@ Planes
 }
 .input-molecule__radio-label {
   display: inline-block;
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Fira Mono', monospace;
   font-size: 14px;
   line-height: 1.75;
   font-weight: 400;
@@ -2948,7 +2948,7 @@ Sidebar
 .local-lodging-organism__hotel-list {
   padding: 0;
   margin: 0;
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Fira Mono', monospace;
   color: #222222;
   font-size: 12px;
 }
@@ -3120,7 +3120,7 @@ Dos and Donts
 .local-tips-organism__dos-and-donts-list {
   padding: 0 0 0 27px;
   margin: 0;
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Fira Mono', monospace;
   color: #222222;
   font-size: 14px;
 }
