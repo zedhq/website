@@ -20,7 +20,7 @@ Planes
 Base
 */
 .headline-atom {
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Fira Mono', monospace;
   line-height: 1.5;
   font-weight: 700;
   margin: 0;
@@ -561,7 +561,7 @@ List
   margin-top: 10px;
 }
 .legal-view__list-item {
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Fira Mono', monospace;
   line-height: 1.75;
   font-weight: 400;
   font-size: 12px;
@@ -571,7 +571,7 @@ Address
 */
 .legal-view__address {
   margin-top: 10px;
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Fira Mono', monospace;
   line-height: 1.75;
   font-weight: 400;
   font-size: 12px;
@@ -625,7 +625,7 @@ Base
   margin-top: 0;
 }
 .call-for-participation-view__ordered-list {
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Fira Mono', monospace;
   line-height: 1.75;
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -932,7 +932,7 @@ Planes
 Base
 */
 .copy-atom {
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Fira Mono', monospace;
   line-height: 1.75;
   font-weight: 400;
   margin: 0;
@@ -1144,7 +1144,7 @@ Planes
   }
 }
 .link-atom {
-  font-family: 'Overpass Mono', monospace;
+  font-family: 'Fira Mono', monospace;
   color: #222222;
   text-decoration: none;
   line-height: 1.75;
@@ -3048,27 +3048,13 @@ Section hero + deep-dives
 .local-transit-organism__deep-dive:first-child {
   margin-top: 0;
 }
-/*
-Breakpoints
-*/
-/*
-Colors
-*/
-/*
-Type system
-*/
-/*
-Spacing
-*/
-/*
-Grid
-*/
-/*
-Planes
-*/
-/*
-Base styles
-*/
+/* Breakpoints */
+/* Colors */
+/* Type system */
+/* Spacing */
+/* Grid */
+/* Planes */
+/* Base styles */
 .local-tips-organism {
   padding-top: 0;
 }
