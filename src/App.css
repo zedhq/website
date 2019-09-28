@@ -1,6 +1,7 @@
-.container {
+.main-container {
   display: flex;
   flex: 1;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   background-color: black;
@@ -8,18 +9,49 @@
   justify-content: center;
 }
 
-img {
-  height: 20em;
-  width: 20em;
-  fill: white;
+.sub-container {
+  margin: auto;
+  max-width: 1200px;
 }
 
-.typing {
-  font-family: 'Space Mono', monospace;
-  color: white;
+.responsive-image {
+  max-width: 100%;
+  margin: 50px;
 }
-.typing-link {
-  font-family: 'Space Mono', monospace;
-  color: white;
-  text-decoration: underline;
+
+.cell img {
+  display: block;
+}
+
+.main-image {
+  margin-top: 100px;
+  height: 15em;
+  width: 15em;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 3);
+  }
+}
+
+.footer-image {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 3em;
+
 }

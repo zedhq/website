@@ -1,23 +1,29 @@
 import React, { Component } from 'react';
 import Typing from 'react-typing-animation';
-import logo from './images/zed-white.svg';
+import logo from './images/zed.svg';
+import zedText from './images/zed-text.svg';
+import alice from './images/alice.svg';
+import sigma from './images/sigma-prime.svg';
 import './App.css';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
-      <div className="container">
-        <img src={logo} alt=""/>
-        <Typing speed={50}>
-          <div className="typing">A digital agency for the new web</div>
-          <Typing.Delay ms={1000} />
-          <a className="typing-link" href = "mailto:markpereira17@gmail.com?subject = Zed&body = Hey there, would love to know more about zed!">
-            Email us
-          </a>
-        </Typing>
+      <div className="main-container">
+        <img src={logo} className="main-image"/>
+        <div className="sub-container">
+          <div className="grid">
+            <div className="cell">
+              <img src={alice} className="responsive-image"/>
+            </div>
+            <div className="cell">
+              <img src={sigma} className="responsive-image"/>
+            </div>
+          </div>
+        </div>
+        <img src={zedText} alt="" className="footer-image"/>
       </div>
     );
   }
-}
+};
 
-export default App;
